@@ -1,0 +1,9 @@
+.category-filter-button {
+  padding: 1rem 1rem;
+  font-weight: 600;
+}
+
+.category-filter-button.active {
+  background-color: var(--main-dark-color);
+  color: var(--main-light-color);
+}

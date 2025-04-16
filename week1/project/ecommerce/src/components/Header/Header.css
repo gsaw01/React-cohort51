@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-block: 3rem;
+  padding-inline: 1.75rem;
+  border: var(--dark-border);
+  border-radius: var(--default-border-radius);
+  color: var(--main-dark-color);
+}
+
+.header-logo {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
