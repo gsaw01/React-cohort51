@@ -1,0 +1,71 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 3rem;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Inter Tight', system-ui;
+  color: var(--main-dark-color);
+  background-color: var(--main-light-color);
+}
+
+.site-container {
+  max-width: 1360px;
+  padding-block: 1rem 2rem;
+  padding-inline: 40px;
+  margin: 0 auto;
+}
+
+@media (max-width: 760px) {
+  .site-container {
+    padding-inline: 20px;
+  }
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1.5rem;
+}
+
+::selection {
+  background-color: var(--main-dark-color);
+  color: var(--main-light-color);
+}
+
+.products-page-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+  background-color: inherit;
+  outline: none;
+  border: var(--default-border);
+  padding: 0.45rem 0.8rem;
+  border-radius: var(--default-border-radius);
+  box-shadow: var(--default-box-shadow);
+  transition: var(--default-transition);
+}
+
+button:hover {
+  background-color: var(--hover-color);
+  color: var(--main-dark-color);
+}
+
+.error-message {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
