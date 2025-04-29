@@ -1,0 +1,14 @@
+.error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: var(--default-border);
+  border-radius: var(--default-border-radius);
+  padding: 3rem;
+}
+
+.error-message-info {
+  display: flex;
+  gap: 0.5rem;
+}

@@ -1,0 +1,18 @@
+.not-found-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-page p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.back-home-link {
+  background-color: var(--main-dark-color);
+  color: var(--main-light-color);
+  border-radius: var(--default-border-radius);
+  padding: 1rem 1.25rem;
+}
